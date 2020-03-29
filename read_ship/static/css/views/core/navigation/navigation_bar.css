@@ -1,0 +1,59 @@
+.cite-source {
+  font-family: benton-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+#navigation-icon {
+  max-height: 34px;
+  padding: 10px;
+}
+
+#navigation-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#navigation-title {
+  font-weight: bolder;
+  font-family: benton-sans, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+#navigation-search {
+  display: inline-flex;
+  margin-left: 24px;
+  position: relative;
+  border-radius: 4px;
+  background-color: #6a7ce2;
+}
+
+#navigation-search:hover {
+  background-color: #8392ea;
+}
+
+#navigation-search-icon {
+  height: 100%;
+  display: flex;
+  padding: 0px 16px;
+  position: absolute;
+  align-items: center;
+  pointer-events: none;
+  justify-content: center;
+}
+
+#navigation-search-input {
+  padding: 8px 8px 8px 0px;
+  transition: width 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  padding-left: calc(1em + 32px);
+  width: 20ch;
+  color: #ffffff;
+}
+
+#citation-button {
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+/*# sourceMappingURL=navigation_bar.css.map */

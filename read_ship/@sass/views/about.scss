@@ -1,0 +1,105 @@
+@import 'core/navigation/navigation_bar';
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('/static/img/background.svg');
+}
+
+.tutorial-image {
+    min-width: 320px;
+    width: calc(100% - 60px);
+    max-width: 500px;
+    margin: 50px 0;
+}
+
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 64px);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 1em;
+    font-family: benton-sans, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    #welcome-title {
+        font-size: 64px;
+        padding-top: 1em;
+    }
+
+    #welcome-blurb {
+
+    }
+
+    #welcome-search {
+        display: inline-flex;
+        width: 500px;
+        position: relative;
+        border-radius: 4px;
+        background-color: #d6d6d6;
+    }
+
+    #welcome-search:hover {
+        background-color: #e4e4e4;
+    }
+
+    #welcome-search-icon {
+        height: 100%;
+        display: flex;
+        padding: 0px 16px;
+        position: absolute;
+        align-items: center;
+        pointer-events: none;
+        justify-content: center;
+    }
+
+    #welcome-search-input {
+        padding: 16px 16px 16px 0px;
+        transition: width 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        padding-left: calc(1em + 32px);
+        width: 49ch;
+        color: #000000;
+    }
+
+    #welcome-image {
+        min-width: 320px;
+        width: calc(100% - 60px);
+        max-width: 500px;
+        margin: 50px 0;
+    }
+}
+
+#tutorial-section {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 64px);
+    align-items: center;
+    text-align: center;
+    font-family: benton-sans, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    #tutorial-title {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 599px) {
+    #navigation-title {
+        display: none;
+    }
+
+    #welcome-section {
+        height: calc(100vh - 56px);
+
+        #welcome-search {
+            width: 300px;
+        }
+
+        #welcome-search-input {
+            width: 27ch;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url("/static/img/background.svg");
+}
+
+#error-number {
+  font-weight: bolder;
+  font-family: benton-sans, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  font-size: 60px;
+}
+#error-number h1 {
+  margin: 10px;
+}
+
+#error-message {
+  font-weight: bolder;
+  font-family: benton-sans, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+a {
+  display: flex;
+}
+
+img {
+  height: 100px;
+  -moz-transform: scale(-1, -1);
+  -o-transform: scale(-1, -1);
+  -webkit-transform: scale(-1, -1);
+  transform: scale(-1, -1);
+}
+
+/*# sourceMappingURL=errors.css.map */

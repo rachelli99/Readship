@@ -1,0 +1,33 @@
+{
+  "name": "read-ship",
+  "author": "Riley Conrardy, Rachel Li, Erick Leyva, Phuong Ho",
+  "description": "ReadShip is a web-application that summarizes long news articles into bite-sized snippets.",
+  "version": "1.0.0",
+  "license": "ISC",
+  "scripts": {
+    "watch": "webpack --watch --mode development",
+    "start": "webpack-dev-server --open --hot --mode development",
+    "build": "webpack --mode development"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "sass": "^1.25.0",
+    "style-loader": "^1.1.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.8.3",
+    "@material-ui/icons": "^4.5.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2"
+  }
+}

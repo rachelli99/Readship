@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>ReadShip - {{ view|capitalize }}</title>
+        <meta name="viewport" content="minimum-scale=1.0, initial-scale=1.0, width=device-width, shrink-to-fit=no" />
+        {% if no_index and no_follow %}
+            <meta name="robots" content="noindex, nofollow">
+        {% elif no_index %}
+            <meta name="robots" content="noindex">
+        {% elif no_follow %}
+            <meta name="robots" content="nofollow">
+        {% endif %}
+        <link rel="stylesheet" href="/static/css/views/{{ view }}.css?">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.typekit.net/fhe5rrl.css">
+    </head>
+    <body>
+        <div id="read_ship">
+            <script src="/static/jsx/read_ship_bundle.js"></script>
+        </div>
+    </body>
+</html>

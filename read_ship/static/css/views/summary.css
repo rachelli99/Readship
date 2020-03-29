@@ -1,0 +1,126 @@
+.cite-source {
+  font-family: benton-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+#navigation-icon {
+  max-height: 34px;
+  padding: 10px;
+}
+
+#navigation-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#navigation-title {
+  font-weight: bolder;
+  font-family: benton-sans, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+#navigation-search {
+  display: inline-flex;
+  margin-left: 24px;
+  position: relative;
+  border-radius: 4px;
+  background-color: #6a7ce2;
+}
+
+#navigation-search:hover {
+  background-color: #8392ea;
+}
+
+#navigation-search-icon {
+  height: 100%;
+  display: flex;
+  padding: 0px 16px;
+  position: absolute;
+  align-items: center;
+  pointer-events: none;
+  justify-content: center;
+}
+
+#navigation-search-input {
+  padding: 8px 8px 8px 0px;
+  transition: width 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  padding-left: calc(1em + 32px);
+  width: 20ch;
+  color: #ffffff;
+}
+
+#citation-button {
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("/static/img/background.svg");
+}
+
+.hashtag-chip {
+  margin: 2.5px 2.5px;
+  font-family: benton-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.recommendation-card {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+}
+.recommendation-card .recommendation-card-content {
+  background-color: #f0f0f0;
+  border: 1px solid #e0e0e0;
+  text-align: center;
+}
+
+#extract-section {
+  font-family: benton-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+}
+
+#summary-section {
+  font-family: benton-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.4rem;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+#audio-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+#hashtag-section {
+  font-family: benton-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#footnote-section {
+  font-family: benton-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+}
+
+#similar-articles-subtitle {
+  font-family: benton-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#recommendations-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=summary.css.map */
