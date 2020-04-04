@@ -1,5 +1,7 @@
 # ReadShip
 
+LA Hacks 2020 project. Built with @rconrardy
+
 ## Table of Contents
 1. [Developer Setup](#Developer-Setup)
 2. [Running & Testing Locally](#Running-&-Testing-Locally)
